@@ -96,17 +96,59 @@
   <forceEntries>
     <forceEntry id="dd78-223c-7bee-cc94" name="Crusade Detachment" hidden="false">
       <categoryLinks>
-        <categoryLink id="ca29-edec-98f0-0fba" name="HQ" hidden="false" targetId="3f9e-5f17-9507-42fc" primary="false"/>
-        <categoryLink id="decb-60d6-deb1-711f" name="Troops" hidden="false" targetId="a2c8-550c-64d1-c48e" primary="false"/>
-        <categoryLink id="d8fd-fa05-bafa-a722" name="Elites" hidden="false" targetId="70c0-02cf-2b82-873d" primary="false"/>
+        <categoryLink id="ca29-edec-98f0-0fba" name="HQ" hidden="false" targetId="3f9e-5f17-9507-42fc" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa64-0a55-266b-79f6" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71b1-36b8-08d1-29d9" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="decb-60d6-deb1-711f" name="Troops" hidden="false" targetId="a2c8-550c-64d1-c48e" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e97a-8b60-29d0-9cab" type="min"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab07-ebbc-b0e6-125a" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="d8fd-fa05-bafa-a722" name="Elites" hidden="false" targetId="70c0-02cf-2b82-873d" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b47-cd94-1755-2fce" type="max"/>
+          </constraints>
+        </categoryLink>
         <categoryLink id="7edd-61cb-539d-4666" name="Dedicated Transport" hidden="false" targetId="5082-417d-13d9-8f5a" primary="false"/>
-        <categoryLink id="0b36-3e55-c5e3-bd02" name="Fast Attack" hidden="false" targetId="4e8c-900b-834a-3128" primary="false"/>
-        <categoryLink id="6667-aa9f-6ac2-bf95" name="Heavy Support" hidden="false" targetId="0aa8-7872-d0d2-db09" primary="false"/>
-        <categoryLink id="d0da-894d-a190-8da2" name="Flyer" hidden="false" targetId="5ff9-2f7a-f68d-dbd2" primary="false"/>
-        <categoryLink id="1f63-68d7-8832-824b" name="Fortification" hidden="false" targetId="d38d-5fa2-28dc-a35c" primary="false"/>
-        <categoryLink id="2b8e-af80-7ead-9440" name="Lord of War" hidden="false" targetId="87d7-8a8b-30dc-c1da" primary="false"/>
-        <categoryLink id="7a92-81b2-f0a5-eec7" name="Right of War" hidden="false" targetId="887f-625f-f824-67f5" primary="false"/>
-        <categoryLink id="898d-2718-2302-4e29" name="Sub-Faction" hidden="false" targetId="d2bb-cb77-6548-617e" primary="false"/>
+        <categoryLink id="0b36-3e55-c5e3-bd02" name="Fast Attack" hidden="false" targetId="4e8c-900b-834a-3128" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46c3-c18c-a562-4a81" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="6667-aa9f-6ac2-bf95" name="Heavy Support" hidden="false" targetId="0aa8-7872-d0d2-db09" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4ee-f315-bc6c-cbca" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="d0da-894d-a190-8da2" name="Flyer" hidden="false" targetId="5ff9-2f7a-f68d-dbd2" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50cb-0eb3-cbe8-f398" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="1f63-68d7-8832-824b" name="Fortification" hidden="false" targetId="d38d-5fa2-28dc-a35c" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a897-d152-d282-4b03" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="2b8e-af80-7ead-9440" name="Lord of War" hidden="false" targetId="87d7-8a8b-30dc-c1da" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e58e-a4b7-5348-0a1e" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="7a92-81b2-f0a5-eec7" name="Right of War" hidden="false" targetId="887f-625f-f824-67f5" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b91-dc3a-c2ab-da4a" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="898d-2718-2302-4e29" name="Sub-Faction" hidden="false" targetId="d2bb-cb77-6548-617e" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="140d-46dd-b63c-df3f" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="399f-acd2-ca0a-f6c6" name="Allied Detachment" hidden="false">

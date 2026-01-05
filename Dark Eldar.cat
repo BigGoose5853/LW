@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="a64b-d009-05eb-0421" name="Dark Eldar" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="8b17-cbb9-9637-deb3" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="19da-88cf-d595-f292" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedRules>
+    <rule id="cb75-3b84-03c1-92f4" name="Monofilament" hidden="false">
+      <description>When rolling to wound or penetrate against a target with this weapon, instead of using the targets Toughness (T) characteristic roll to wound by comparing the targets Initiative (I) characteristic to the weapons Strength (S) characteristic on the wound chart. Monofilament weapons are resolved against the AV of Vehicles, Fortifications, Titans, Knights and Aircraft type units as normal. For Instant Death, the weapon is Instant Death if its Strength (S) characteristic is double the targets Initiative (I) characteristic.</description>
+    </rule>
+    <rule id="9a9c-7cde-f712-04a7" name="She Who Thirsts" hidden="false">
+      <description>Eldar units with this special rule have the Hatred (Slaanesh) special rule.</description>
+    </rule>
+    <rule id="d601-a16a-55b3-cf9d" name="Netted" hidden="false">
+      <description>At the start of the combat phase, select a single enemy model in Melee range. Halve its Weapon Skill (WS) characteristic until the end of the phase.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="5822-b5bf-fd83-7aca" name="Force Field" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">This wargear confers a 4+ Invulnerable save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a37a-9802-bb7c-e564" name="Shadow Field" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">This wargear confers a 2+ Invulnerable save. The first time a model with this wargear would fail an Invulnerable save using the Shadow Field, they may not use the Shadow Field for the rest of the game.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e48d-ee1f-6531-1e3c" name="Cluster Caltrops" hidden="false" typeId="e8ea-d68c-a323-acaf" typeName="Psychic Powers">
+      <characteristics>
+        <characteristic name="Description" typeId="fb74-9bcc-8c9c-4feb">All Charges against a unit which includes a model with this wargear are treated as Disordered Charges.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="99e8-fa43-1d10-904d" name="Combat Drugs" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">A model with this wargear may opt to gain +1 to their Strength (S) characteristic and the Frenzy special rule until the start of your next Combat Phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e833-4b5f-2559-7e67" name="Clone Field" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">A model with this wargear rolls at the start of each Player turn, roll a D3. The equipped model may ignore that many wounds allocated to it this turn.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a400-e77f-a299-45a2" name="Soul Trap" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">A model equipped with this wargear gains the Regeneration special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="69fd-669a-e860-5cc9" name="Grav Talon" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">A model equipped with this wargear gains the Haywire (4+) special rule on its Hammer of Wrath Attacks.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e549-f3d9-4c0f-6a3b" name="Dark Trophies" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">A model with this wargear gains the Fear (1) special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="12f3-6b1f-f036-9349" name="Kabalite Armour" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">A light body suit with segmented plates and barbs. It confers a 5+ Armour save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bd2b-46cb-1112-a507" name="Wych Suit" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">A tight fitting and flexible with one armoured side based on the wearers fighting posture. It confers a 6+ armour save. The equipped model has a 4+ Invulnerable save in the Combat Phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="db48-5994-6ca2-1b4f" name="Gnarl Skin" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">A toughened hardened skin protects most flesh constructs and coven members. it confers a 6+ save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bcb9-4f1e-60c1-8f80" name="Ghost Plate" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">A high protection but high mobility suit. Confers a 4+ armour save and 5+ invulnerable save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="57f0-36a7-0c39-3994" name="Incubus Warsuit" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">This heavy traditional Warsuit is fitted with various interlocking plates. This confers a 3+ save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="29cb-63ba-fe4d-ebac" name="Armoured Carapace" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">Engines of pain are often clad in finely wrought armoured shells. This confers a 3+ armour save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6227-5366-f876-0e8e" name="Light Weight Plating" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">Light Weight plating used in many Dark Eldar vehicles. It confers a 3+ Armour save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b57f-ff8e-b85e-6ce4" name="Wings" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">A model that is equipped with Wings increases its Movement (M) characteristic to 12”. The equipped unit gains the Hammer of Wrath (1), Fly, and Deep Strike special rules.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d59a-bfb6-42ac-17b4" name="Sky Board" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">A model equipped with a Skyboard increase their Movement (M) characteristic to 12”. In addition, the model gains the Hammer of Wrath (1), Fly and Deep Strike special rules. Sky Boards are equipped with Splinter Pods.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0360-0d0d-62b2-f091" name="Reaver Jetbike" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">A model that is equipped with Reaver Jetbike becomes the Jetbike type. The Reaver Jetbike increases the models Toughness (T) and Wounds (W) characteristic by 1. This wargear confers a 4+ Armour save. The Reaver Jetbike is equipped with Blade Vanes and a Splinter Rifle.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4d0f-e173-04c5-c204" name="Enhanced Either Sails" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">A model equipped with this Wargear gains +4&quot; to its Movement (M) characteristic.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3dc6-0412-4a77-9c86" name="Retro Fire Jets" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">Grants the equipped model the Deep Strike special rule</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="18cc-1d2a-1e1d-0a87" name="Shock Prow" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">When a model with this Wargear gains +1 to its Hammer of Wrath (x) special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3b31-7317-1755-b8c9" name="Flicker Fields" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">A model with this wargear has a 5+ Invulnerable save against Shooting attacks.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2510-778b-81da-4db7" name="Splinter Racks" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">A unit with this Wargear and any embarked units gain the Linked special rule on all Splinter weapons they are equipped with. For the purposes of this special rule, a ‘Splinter weapon’ is any weapon listed under the ‘Splinter Weapon’ section of the wargear.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a7ad-eb18-ac2b-42cc" name="Night Shields" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">A model equipped with this Wargear cannot be targeted for an attack in the Shooting Phase if it is more than 18” away.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2a52-18f2-8189-d309" name="Chain Snares" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">A model equipped with this Wargear gains the Furious Charge special rule.
+Grisly Trophies:
+A model equipped with this Wargear gains the Fear (2) special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2e14-2351-d80e-6219" name="Splinter Pistol" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Pistol 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">1</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">6</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Poison (4+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="78be-491f-8f3d-1e1b" name="Splinter Rifle" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Rapid Fire 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">1</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">6</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Poison (4+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="90e6-b16b-c18d-0f8f" name="Splinter Cannon" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Rapid Fire 2</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">1</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">6</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Poison (4+), Pinning</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bcbf-68fa-1441-1ca7" name="Linked Splinter Rifle" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Rapid Fire 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">1</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">6</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Poison (4+), Linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e0e9-b6ed-93df-8c2f" name="Linked Splinter Cannon" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Rapid Fire 2</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">1</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">6</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Poison (4+), Pinning, Linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="57ea-ed4d-658c-002d" name="Splinter Pods" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Assault 2</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">1</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">6</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Poison (4+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a7d8-e515-bce8-3128" name="Shard Carbine" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Assault 3</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">1</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">6</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Poison (4+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7c7f-4d89-a0c8-3642" name="Shredder" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Assault 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">1</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">6</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Blast (Small), Shred, Poison (4+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bce0-64cd-196c-7f28" name="Dark Lance" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Heavy 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">9</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">2</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Lance</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="174c-3956-9001-bc14" name="Heat Lance" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Heavy 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">6</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">1</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Melta, Lance</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="feca-cf9f-ea99-e5c6" name="Void Lance" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Heavy 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">9</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">2</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Lance, Sunder</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="09dd-2f23-1662-4fd4" name="Blast Pistol" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Pistol 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">9</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">2</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9def-8c08-9cfd-1322" name="Blaster" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Assault 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">9</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">2</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3627-417d-c6f4-590c" name="Razorwing Missile (Monoscythe)" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Heavy 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">5</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">6</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Blast (Small), Rending (6+), Variable</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b83e-c2ad-f563-d21e" name="Razorwing Missile (Necrotoxin)" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Heavy 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">1</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">6</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Blast (Small), Poison (4+), Variable</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b8ac-d6f3-e54f-612f" name="Razorwing Missile (Shatterfield)" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Heavy 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">7</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">4</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Blast (Large), Variable</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="aaf3-4992-4190-e8be" name="Void Raven Missiles (Implosion)" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Assault 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">8</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">3</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Variable</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9639-f97f-b3c1-0999" name="Void Raven Missiles (Shatterfield)" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Assault 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">7</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">4</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Blast (Large), Shred, Variable</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="65d0-ad88-781b-2f1c" name="Void Mine" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Heavy 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">Bombing Run</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">10</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">1</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Blast (Large), Bombing Run</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e46f-dadc-93dc-fc56" name="Disintegrator" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Heavy 3</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">5</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">2</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0a45-75b8-1e7a-d2c0" name="Haywire Blaster" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Assault 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">6</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">5</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Haywire (4+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="eea0-5c1f-2ac3-e9bf" name="STORM vORTEX" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Assault 3</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">6</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">4</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Haywire (4+), Arcing (4+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b89b-970f-7767-df92" name="Haywire Cannon" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Assault 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">6</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">4</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Haywire (4+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="057a-0cd3-5dca-e55c" name="Close Combat Weapon" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Melee</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">Melee</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">User</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">-</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e5c8-61b6-c8a2-117b" name="Eldar Crew Weapon" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Melee</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">Melee</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">3</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">-</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8d47-119d-4d13-1cab" name="Venom Blade" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Melee</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">Melee</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">User</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">4</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Poison (4+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1ea1-99f9-1c8b-a32c" name="Blade Vanes" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Melee</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">Melee</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">4</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">4</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="cbe3-bd2e-873d-7b33" name="Hekatarri Blades" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Melee</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">Melee</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">User</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">6</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Parry</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="eefd-785e-cf42-87bc" name="Hydra Gauntlets" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Melee</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">Melee</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">+1</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">4</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Shred, Specialist Weapon</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fbcb-7f9e-7f68-d280" name="Razor Flail" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Melee</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">Melee</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">User</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">4</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Sweeping (2), Reach, Specialist Weapon</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="dde3-dc53-beb0-8bf4" name="Shard Net and Impaler" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Melee</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">Melee</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">+1</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">5</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Precision Hits, Netted</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b99f-52ea-deab-ac53" name="Wrack Blade" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Melee</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">Melee</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">User</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">6</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Poison (4+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4831-49d7-d7b2-6028" name="Cleaver" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Melee</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">Melee</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">+1</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">4</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6bc4-288b-7e7b-ac8b" name="Hell Glaive" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Melee</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">Melee</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">+1</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">5</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Two-Handed, Reach</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d18e-3bb6-f304-fec6" name="Stun Claw" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Melee</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">Melee</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">+1</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">6</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Concussive</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="999d-2d29-f4c2-7f0f" name="Power Sword" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Melee</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">Melee</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">User</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">3</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Rending (6+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a541-869b-6631-e193" name="Agonizer" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Melee</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">Melee</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">User</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">2</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Reach, Poison (4+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="61c0-7f02-e98c-269a" name="Archite Glaive" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Melee</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">Melee</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">+1</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">3</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Two-Handed, Reach</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="61cf-0eaa-c530-40ef" name="Klaive" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Melee</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">Melee</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">+1</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">2</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Two-Handed</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="55dc-05b7-6c97-778e" name="DemiKlaive (Single Blade)" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Melee</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">Melee</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">+1</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">2</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Two-Handed, Variable</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e0b9-f86a-2cdc-5fe8" name="DemiKlaive (Double Blade)" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Melee</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">Melee</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">User</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">3</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Shred, Parry, Variable</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="38f4-9ee1-fa4e-0cc1" name="Plasma Grenade" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Grenade 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">4</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">5</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Blast (Small)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ff3c-e981-21d2-7de2" name="Haywire Grenade" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Grenade 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">6</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">5</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Haywire (4+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4c88-a616-f34a-5022" name="Phantasm Grenades" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Grenade 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">-</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">-</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Pinning</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2d51-4c2f-9b70-c217" name="Dark Scythe" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Heavy 2</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">8</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">2</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="680f-8227-fbb1-7b17" name="Hexrifle" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Heavy 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">36&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">6</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">4</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Precision Hits</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>

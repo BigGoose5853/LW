@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="23cf-19d4-883b-7cbf" name="Harlequins" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="8b17-cbb9-9637-deb3" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="3bf1-54b3-ade7-f1d3" name="Death Jester" hidden="false">
+      <modifiers>
+        <modifier type="set" field="79ab-59e5-fbd1-4127" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="42a3-c4e0-6ff6-5f8c" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="ec95-00e9-865c-70fb" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="42a3-c4e0-6ff6-5f8c" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec95-00e9-865c-70fb" type="min"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79ab-59e5-fbd1-4127" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="8a5d-28dd-49dd-68bb" name="Relic" hidden="false">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a69d-23ba-bcf2-77a3" type="max"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
   <selectionEntries>
     <selectionEntry id="39be-aa61-ab0e-610c" name="Troupe Master" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -238,6 +263,9 @@
                 <infoLink id="45ed-47cc-e3b2-9f6a" name="Murderous Strike (X)" hidden="false" targetId="3aad-734f-1595-44c6" type="rule"/>
                 <infoLink id="b11a-ad39-ddfe-ff3d" name="Bane (X)" hidden="false" targetId="ce3b-05b9-c516-2e24" type="rule"/>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink id="d289-a73a-17a2-6ebf" name="Relic" hidden="false" targetId="8a5d-28dd-49dd-68bb" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="65.0"/>
               </costs>
@@ -258,6 +286,9 @@
                 <infoLink id="fd43-23c6-750d-f2e9" name="Master-Crafted" hidden="false" targetId="e596-8b5f-1d0f-264b" type="rule"/>
                 <infoLink id="d941-b57a-6954-41aa" name="Parry" hidden="false" targetId="7956-afda-e7b5-afde" type="rule"/>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink id="631c-ee59-d11d-3d00" name="Relic" hidden="false" targetId="8a5d-28dd-49dd-68bb" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
               </costs>
@@ -312,6 +343,9 @@
                 <infoLink id="406f-55be-4c10-26ad" name="Master-Crafted" hidden="false" targetId="e596-8b5f-1d0f-264b" type="rule"/>
                 <infoLink id="48c7-ebb4-4e01-e465" name="Rending" hidden="false" targetId="a83b-2c0c-5a4c-3206" type="rule"/>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink id="4edf-320b-e4e8-cacb" name="Relic" hidden="false" targetId="8a5d-28dd-49dd-68bb" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
               </costs>
@@ -543,6 +577,9 @@
                 <infoLink id="aa00-7cc2-40f0-45d9" name="Master-Crafted" hidden="false" targetId="e596-8b5f-1d0f-264b" type="rule"/>
                 <infoLink id="d5e7-5de3-1848-2c77" name="Rending" hidden="false" targetId="a83b-2c0c-5a4c-3206" type="rule"/>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink id="d649-c62d-54fb-418b" name="Relic" hidden="false" targetId="8a5d-28dd-49dd-68bb" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
               </costs>
@@ -1455,6 +1492,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="2e2c-8c35-730b-0357" name="Elites" hidden="false" targetId="70c0-02cf-2b82-873d" primary="true"/>
+        <categoryLink id="7656-4cb2-6829-68ee" name="Death Jester" hidden="false" targetId="3bf1-54b3-ade7-f1d3" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e8c9-7688-d5e4-6072" name="Holo Field" hidden="false" collective="false" import="true" type="upgrade">
@@ -1580,6 +1618,9 @@
                 <infoLink id="6116-8e6b-2ffa-8bf8" name="Master-Crafted" hidden="false" targetId="e596-8b5f-1d0f-264b" type="rule"/>
                 <infoLink id="e865-af7c-9423-8f33" name="Rending" hidden="false" targetId="a83b-2c0c-5a4c-3206" type="rule"/>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink id="7bf4-b61b-d60f-0e3b" name="Relic" hidden="false" targetId="8a5d-28dd-49dd-68bb" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
               </costs>
@@ -2241,6 +2282,9 @@
                 <infoLink id="ebcc-1ef0-d7c2-0a73" name="Murderous Strike (X)" hidden="false" targetId="3aad-734f-1595-44c6" type="rule"/>
                 <infoLink id="f87a-5205-7bf4-2c83" name="Bane (X)" hidden="false" targetId="ce3b-05b9-c516-2e24" type="rule"/>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink id="6110-c317-135a-70f2" name="Relic" hidden="false" targetId="8a5d-28dd-49dd-68bb" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="50.0"/>
               </costs>
@@ -3460,6 +3504,9 @@ and Initiative (I) characteristics.</description>
                 <infoLink id="aa87-e900-c429-76fc" name="Murderous Strike (X)" hidden="false" targetId="3aad-734f-1595-44c6" type="rule"/>
                 <infoLink id="c563-45ef-ea65-d7e8" name="Bane (X)" hidden="false" targetId="ce3b-05b9-c516-2e24" type="rule"/>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink id="7147-8134-4f84-9d7e" name="Relic" hidden="false" targetId="8a5d-28dd-49dd-68bb" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="65.0"/>
               </costs>
@@ -3480,6 +3527,9 @@ and Initiative (I) characteristics.</description>
                 <infoLink id="d1d0-9775-6ab9-c58f" name="Master-Crafted" hidden="false" targetId="e596-8b5f-1d0f-264b" type="rule"/>
                 <infoLink id="7cbf-c85f-b469-0a07" name="Parry" hidden="false" targetId="7956-afda-e7b5-afde" type="rule"/>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink id="7e60-fc55-2910-c5e6" name="Relic" hidden="false" targetId="8a5d-28dd-49dd-68bb" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
               </costs>
@@ -3534,6 +3584,9 @@ and Initiative (I) characteristics.</description>
                 <infoLink id="37d9-8237-d941-4da9" name="Master-Crafted" hidden="false" targetId="e596-8b5f-1d0f-264b" type="rule"/>
                 <infoLink id="bb63-061b-cf17-8879" name="Rending" hidden="false" targetId="a83b-2c0c-5a4c-3206" type="rule"/>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink id="9f74-8dd2-5889-c61c" name="Relic" hidden="false" targetId="8a5d-28dd-49dd-68bb" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
               </costs>
@@ -4329,6 +4382,9 @@ and Initiative (I) characteristics.</description>
                 <infoLink id="f53b-51df-4431-1695" name="Murderous Strike (X)" hidden="false" targetId="3aad-734f-1595-44c6" type="rule"/>
                 <infoLink id="9250-8e5a-9569-ebb2" name="Bane (X)" hidden="false" targetId="ce3b-05b9-c516-2e24" type="rule"/>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink id="a4a3-ead6-7b6c-97cd" name="Relic" hidden="false" targetId="8a5d-28dd-49dd-68bb" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="65.0"/>
               </costs>
@@ -4349,6 +4405,9 @@ and Initiative (I) characteristics.</description>
                 <infoLink id="3003-9300-a4d5-d9f0" name="Master-Crafted" hidden="false" targetId="e596-8b5f-1d0f-264b" type="rule"/>
                 <infoLink id="04e9-e804-9e4d-656a" name="Parry" hidden="false" targetId="7956-afda-e7b5-afde" type="rule"/>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink id="b4a9-31fe-48fa-7682" name="Relic" hidden="false" targetId="8a5d-28dd-49dd-68bb" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
               </costs>
@@ -4403,6 +4462,9 @@ and Initiative (I) characteristics.</description>
                 <infoLink id="da2f-893d-7fb1-1df5" name="Master-Crafted" hidden="false" targetId="e596-8b5f-1d0f-264b" type="rule"/>
                 <infoLink id="9513-4a7c-8e63-a6fd" name="Rending" hidden="false" targetId="a83b-2c0c-5a4c-3206" type="rule"/>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink id="5be0-109c-7bb6-034f" name="Relic" hidden="false" targetId="8a5d-28dd-49dd-68bb" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
               </costs>
@@ -4525,6 +4587,7 @@ and Initiative (I) characteristics.</description>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f274-1248-9373-5c8e" name="New CategoryLink" hidden="false" targetId="3f9e-5f17-9507-42fc" primary="true"/>
+        <categoryLink id="07c4-8243-5dbf-039a" name="Death Jester" hidden="false" targetId="3bf1-54b3-ade7-f1d3" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6c71-a4ba-3bc5-511c" name="Holo Field" hidden="false" collective="false" import="true" type="upgrade">
@@ -4650,6 +4713,9 @@ and Initiative (I) characteristics.</description>
                 <infoLink id="dc46-8634-c4ea-1d62" name="Master-Crafted" hidden="false" targetId="e596-8b5f-1d0f-264b" type="rule"/>
                 <infoLink id="40af-71df-3e42-88c4" name="Rending" hidden="false" targetId="a83b-2c0c-5a4c-3206" type="rule"/>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink id="3814-b7e6-39bd-e0ca" name="Relic" hidden="false" targetId="8a5d-28dd-49dd-68bb" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
               </costs>
@@ -4729,6 +4795,7 @@ and Initiative (I) characteristics.</description>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5240-d8f8-039f-1a45" name="Elites" hidden="false" targetId="70c0-02cf-2b82-873d" primary="true"/>
+        <categoryLink id="fb75-75f5-415f-d99f" name="Death Jester" hidden="false" targetId="3bf1-54b3-ade7-f1d3" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2ec2-3225-15ea-27f7" name="Holo Field" hidden="false" collective="false" import="true" type="upgrade">
@@ -4854,6 +4921,9 @@ and Initiative (I) characteristics.</description>
                 <infoLink id="edc1-afe9-10ea-cfe1" name="Master-Crafted" hidden="false" targetId="e596-8b5f-1d0f-264b" type="rule"/>
                 <infoLink id="e674-c575-29a7-23d0" name="Rending" hidden="false" targetId="a83b-2c0c-5a4c-3206" type="rule"/>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink id="d6f3-5710-c5c1-1add" name="Relic" hidden="false" targetId="8a5d-28dd-49dd-68bb" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
               </costs>
@@ -5082,6 +5152,9 @@ and Initiative (I) characteristics.</description>
                 <infoLink id="c336-44cf-e4e2-2061" name="Murderous Strike (X)" hidden="false" targetId="3aad-734f-1595-44c6" type="rule"/>
                 <infoLink id="e1d4-50df-8505-2a73" name="Bane (X)" hidden="false" targetId="ce3b-05b9-c516-2e24" type="rule"/>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink id="4991-ae0b-3d3f-1312" name="Relic" hidden="false" targetId="8a5d-28dd-49dd-68bb" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="50.0"/>
               </costs>
@@ -5312,6 +5385,9 @@ and Initiative (I) characteristics.</description>
                 <infoLink id="50e2-ee52-e373-69c2" name="Murderous Strike (X)" hidden="false" targetId="3aad-734f-1595-44c6" type="rule"/>
                 <infoLink id="f22e-fc65-9fc4-e83c" name="Bane (X)" hidden="false" targetId="ce3b-05b9-c516-2e24" type="rule"/>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink id="f980-6167-5098-d834" name="Relic" hidden="false" targetId="8a5d-28dd-49dd-68bb" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="50.0"/>
               </costs>
@@ -5894,6 +5970,9 @@ and Initiative (I) characteristics.</description>
                 <infoLink id="b416-35d6-4d67-155c" name="Murderous Strike (X)" hidden="false" targetId="3aad-734f-1595-44c6" type="rule"/>
                 <infoLink id="56ab-cc32-8730-5b51" name="Bane (X)" hidden="false" targetId="ce3b-05b9-c516-2e24" type="rule"/>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink id="6bdf-1c3f-3b76-b509" name="Relic" hidden="false" targetId="8a5d-28dd-49dd-68bb" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="65.0"/>
               </costs>
@@ -5914,6 +5993,9 @@ and Initiative (I) characteristics.</description>
                 <infoLink id="dbb3-b22b-7397-e17e" name="Master-Crafted" hidden="false" targetId="e596-8b5f-1d0f-264b" type="rule"/>
                 <infoLink id="ead1-44fa-73aa-9b16" name="Parry" hidden="false" targetId="7956-afda-e7b5-afde" type="rule"/>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink id="dd4b-fec3-5f0b-1102" name="Relic" hidden="false" targetId="8a5d-28dd-49dd-68bb" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="10.0"/>
               </costs>
@@ -5968,6 +6050,9 @@ and Initiative (I) characteristics.</description>
                 <infoLink id="4a6e-4523-699c-bf50" name="Master-Crafted" hidden="false" targetId="e596-8b5f-1d0f-264b" type="rule"/>
                 <infoLink id="28c7-ff68-c417-34c3" name="Rending" hidden="false" targetId="a83b-2c0c-5a4c-3206" type="rule"/>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink id="cd34-2908-d0e6-7a23" name="Relic" hidden="false" targetId="8a5d-28dd-49dd-68bb" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
               </costs>
@@ -6346,6 +6431,9 @@ select Casting Call (Twilight).</description>
                 <infoLink id="4362-a795-29f5-be7e" name="Master-Crafted" hidden="false" targetId="e596-8b5f-1d0f-264b" type="rule"/>
                 <infoLink id="e53e-e5af-57ae-63c6" name="Rending" hidden="false" targetId="a83b-2c0c-5a4c-3206" type="rule"/>
               </infoLinks>
+              <categoryLinks>
+                <categoryLink id="3db0-6ed7-03e5-a066" name="Relic" hidden="false" targetId="8a5d-28dd-49dd-68bb" primary="false"/>
+              </categoryLinks>
               <costs>
                 <cost name="pts" typeId="points" value="5.0"/>
               </costs>
@@ -6710,6 +6798,9 @@ select Casting Call (Twilight).</description>
               </characteristics>
             </profile>
           </profiles>
+          <categoryLinks>
+            <categoryLink id="646d-7cfe-a25d-1eba" name="Relic" hidden="false" targetId="8a5d-28dd-49dd-68bb" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="30.0"/>
           </costs>
@@ -6725,6 +6816,9 @@ select Casting Call (Twilight).</description>
               </characteristics>
             </profile>
           </profiles>
+          <categoryLinks>
+            <categoryLink id="f9ab-7682-c366-148c" name="Relic" hidden="false" targetId="8a5d-28dd-49dd-68bb" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
           </costs>
@@ -6740,6 +6834,9 @@ select Casting Call (Twilight).</description>
               </characteristics>
             </profile>
           </profiles>
+          <categoryLinks>
+            <categoryLink id="b849-a018-67bb-5b00" name="Relic" hidden="false" targetId="8a5d-28dd-49dd-68bb" primary="false"/>
+          </categoryLinks>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
           </costs>
