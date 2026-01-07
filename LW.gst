@@ -76,6 +76,16 @@
         <characteristicType id="e9ee-6003-9f37-03bc" name="Transport Capacity"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="88dd-c1e1-ab45-97fc" name="Prayer">
+      <characteristicTypes>
+        <characteristicType id="ac45-3b61-2fd0-e13e" name="Description"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="8129-aaf0-1bcd-c50c" name="Machine Rites">
+      <characteristicTypes>
+        <characteristicType id="88ab-6cd5-de1a-56aa" name="Description"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="887f-625f-f824-67f5" name="Right of War" hidden="false"/>
