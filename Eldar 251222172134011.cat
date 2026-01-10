@@ -4969,6 +4969,33 @@ would normally not.
       <categoryLinks>
         <categoryLink id="3bf8-9ca2-01ca-442a" name="New CategoryLink" hidden="false" targetId="4e8c-900b-834a-3128" primary="true"/>
       </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2212-0e0b-9ed8-4699" name="Clan Kinsmen" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3a24-a666-51b8-3b59" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="points" value="5.0">
+              <repeats>
+                <repeat field="selections" scope="0dad-3334-96c6-3ef2" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e1d-0cb5-552f-4146" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="cfd0-cc9c-68f5-6be7" name="Clan Kinsmen" hidden="false">
+              <description>A model with this special rule gains +1 to its Weapon Skill (WS) and Attacks (A) characteristics. In addition, the model gains a Chainsword.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="daae-b98c-2025-1013" name="Members" hidden="false" collective="false" import="true" defaultSelectionEntryId="a402-4464-8460-96cf">
           <constraints>
@@ -4981,7 +5008,20 @@ would normally not.
                 <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8777-9bc8-39bb-bcb5" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="e745-5c7c-3e3a-8de9" name="Wind Rider" hidden="false" targetId="d95b-2808-5f76-9401" type="profile"/>
+                <infoLink id="e745-5c7c-3e3a-8de9" name="Wind Rider" hidden="false" targetId="d95b-2808-5f76-9401" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="704e-d57e-46b1-28f8" value="4">
+                      <conditions>
+                        <condition field="selections" scope="0dad-3334-96c6-3ef2" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2212-0e0b-9ed8-4699" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="eb59-0453-4054-a25a" value="2">
+                      <conditions>
+                        <condition field="selections" scope="0dad-3334-96c6-3ef2" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2212-0e0b-9ed8-4699" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
               </infoLinks>
               <selectionEntries>
                 <selectionEntry id="baae-caa5-f2ec-39b2" name="Mesh Armour" hidden="false" collective="true" import="true" type="upgrade">
@@ -5020,56 +5060,6 @@ would normally not.
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="b22e-738e-4602-4cd8" name="Clan Kinsmen" hidden="false" collective="true" import="true" type="upgrade">
-                  <modifiers>
-                    <modifier type="set" field="hidden" value="true">
-                      <conditions>
-                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3a24-a666-51b8-3b59" type="equalTo"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f695-e45e-a4f4-c6d4" type="max"/>
-                  </constraints>
-                  <rules>
-                    <rule id="e511-9255-2d20-3aa7" name="Clan Kinsmen" hidden="false">
-                      <description>A model with this special rule gains +1 to its Weapon Skill (WS) and Attacks (A) characteristics. In
-addition, the model gains a Chainsword.
-• The model may exchange the Chainsword for a Power Sword for 5pts.</description>
-                    </rule>
-                  </rules>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup id="765c-ce6f-745a-048a" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="0f5d-a9f2-4421-bcb3">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eae5-569c-9093-ec58" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d292-3c3b-07c4-2c4d" type="min"/>
-                      </constraints>
-                      <selectionEntries>
-                        <selectionEntry id="0f5d-a9f2-4421-bcb3" name="Chainsword" hidden="false" collective="false" import="true" type="upgrade">
-                          <infoLinks>
-                            <infoLink id="d275-0213-68dc-9095" name="Chainsword" hidden="false" targetId="d382-3efb-3f6d-103a" type="profile"/>
-                            <infoLink id="069a-db1c-9d4f-ae7c" name="Shred" hidden="false" targetId="e8a9-29c2-b073-4048" type="rule"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="pts" typeId="points" value="0.0"/>
-                          </costs>
-                        </selectionEntry>
-                        <selectionEntry id="ac33-9e54-2ca1-4ffb" name="Power Sword" hidden="false" collective="false" import="true" type="upgrade">
-                          <infoLinks>
-                            <infoLink id="82a0-1ddf-9162-fcc0" name="Power Sword" hidden="false" targetId="46ec-11b1-21a6-54ee" type="profile"/>
-                            <infoLink id="bc88-8c8e-65a6-a207" name="Rending" hidden="false" targetId="a83b-2c0c-5a4c-3206" type="rule"/>
-                          </infoLinks>
-                          <costs>
-                            <cost name="pts" typeId="points" value="5.0"/>
-                          </costs>
-                        </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
-                  <costs>
-                    <cost name="pts" typeId="points" value="5.0"/>
-                  </costs>
-                </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups>
                 <selectionEntryGroup id="c06e-2b6c-0aa8-7db5" name="Linked Shuriken Catapult" hidden="false" collective="false" import="true" defaultSelectionEntryId="34d6-2b76-b343-87a7">
@@ -5100,6 +5090,44 @@ addition, the model gains a Chainsword.
                       <infoLinks>
                         <infoLink id="354a-5d23-52ed-4e55" name="Pinning" hidden="false" targetId="d688-bb98-b02e-61b2" type="rule"/>
                         <infoLink id="c51e-8802-0753-5510" name="Scatter Laser" hidden="false" targetId="8594-ead9-5635-bdfc" type="profile"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="5.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="42e9-763a-d08e-df35" name="Weapon" hidden="true" collective="false" import="true" defaultSelectionEntryId="cafd-504e-0c3a-92e4">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="false">
+                      <conditions>
+                        <condition field="selections" scope="0dad-3334-96c6-3ef2" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2212-0e0b-9ed8-4699" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="c390-d709-ed13-738f" value="1.0">
+                      <conditions>
+                        <condition field="selections" scope="0dad-3334-96c6-3ef2" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2212-0e0b-9ed8-4699" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f74e-30e2-e5ea-1f31" type="max"/>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c390-d709-ed13-738f" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="cafd-504e-0c3a-92e4" name="Chainsword" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="44e0-0839-f4e5-fe6b" name="Chainsword" hidden="false" targetId="d382-3efb-3f6d-103a" type="profile"/>
+                        <infoLink id="a1d1-3dcc-66af-0d1b" name="Shred" hidden="false" targetId="e8a9-29c2-b073-4048" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="f28d-bf98-62c7-9248" name="Power Sword" hidden="false" collective="false" import="true" type="upgrade">
+                      <infoLinks>
+                        <infoLink id="7f8e-6326-73e4-1915" name="Power Sword" hidden="false" targetId="46ec-11b1-21a6-54ee" type="profile"/>
+                        <infoLink id="c435-4a7b-356b-a237" name="Rending" hidden="false" targetId="a83b-2c0c-5a4c-3206" type="rule"/>
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="5.0"/>
