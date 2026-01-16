@@ -102,6 +102,8 @@
     <categoryEntry id="67c0-7487-5d11-2f55" name="Detachment" hidden="false"/>
     <categoryEntry id="1475-bbaf-dd6e-1e87" name="No Force Org Slot" hidden="false"/>
     <categoryEntry id="55a5-0f77-74e2-bf11" name="Warlord" hidden="false"/>
+    <categoryEntry id="6713-ade1-e3c1-e282" name="Non Support Squad Troop" hidden="false"/>
+    <categoryEntry id="3d73-a22f-cf4d-46e0" name="Non Support Squad HQ" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="dd78-223c-7bee-cc94" name="Crusade Detachment" hidden="false">
@@ -114,8 +116,8 @@
         </categoryLink>
         <categoryLink id="decb-60d6-deb1-711f" name="Troops" hidden="false" targetId="a2c8-550c-64d1-c48e" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e97a-8b60-29d0-9cab" type="min"/>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab07-ebbc-b0e6-125a" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0f7-d184-2c36-173b" type="min"/>
           </constraints>
         </categoryLink>
         <categoryLink id="d8fd-fa05-bafa-a722" name="Elites" hidden="false" targetId="70c0-02cf-2b82-873d" primary="false">
@@ -157,6 +159,16 @@
         <categoryLink id="898d-2718-2302-4e29" name="Sub-Faction" hidden="false" targetId="d2bb-cb77-6548-617e" primary="false">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="140d-46dd-b63c-df3f" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="812b-64d9-bbcd-6bac" name="Non Support Squad HQ" hidden="false" targetId="3d73-a22f-cf4d-46e0" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d0e-291b-f13e-0b5a" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="cd2b-6aa4-921e-cb15" name="Non Support Squad Troop" hidden="false" targetId="6713-ade1-e3c1-e282" primary="false">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c735-2e6c-58dd-91b0" type="min"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
