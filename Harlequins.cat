@@ -68,6 +68,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1418-0580-5139-4b86" name="New CategoryLink" hidden="false" targetId="3f9e-5f17-9507-42fc" primary="true"/>
+        <categoryLink id="cb3c-73e1-845f-5a7a" name="Non Support Squad HQ" hidden="false" targetId="3d73-a22f-cf4d-46e0" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="14ac-8f58-1351-216e" name="Holo Field" hidden="false" collective="false" import="true" type="upgrade">
@@ -462,6 +463,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7311-9257-07c3-443f" name="New CategoryLink" hidden="false" targetId="3f9e-5f17-9507-42fc" primary="true"/>
+        <categoryLink id="a453-85ad-bd1a-342d" name="Non Support Squad HQ" hidden="false" targetId="3d73-a22f-cf4d-46e0" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="9044-f5f7-147b-3aaf" name="Holo Field" hidden="false" collective="false" import="true" type="upgrade">
@@ -800,6 +802,7 @@
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a197-1204-3c35-e90c" name="New CategoryLink" hidden="false" targetId="a2c8-550c-64d1-c48e" primary="true"/>
+        <categoryLink id="987d-fe8b-2067-191d" name="Non Support Squad Troop" hidden="false" targetId="6713-ade1-e3c1-e282" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="eb9c-6970-b515-75fa" name="Members" hidden="false" collective="false" import="true" defaultSelectionEntryId="5f01-3668-c9cd-8ec9">
@@ -3309,6 +3312,7 @@ and Initiative (I) characteristics.</description>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e768-c2e6-4723-d539" name="New CategoryLink" hidden="false" targetId="3f9e-5f17-9507-42fc" primary="true"/>
+        <categoryLink id="1e0a-c1e4-e6a5-8ce1" name="Non Support Squad HQ" hidden="false" targetId="3d73-a22f-cf4d-46e0" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="e184-27bc-449e-d3cc" name="Holo Field" hidden="false" collective="false" import="true" type="upgrade">
@@ -3695,6 +3699,7 @@ and Initiative (I) characteristics.</description>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="52bb-f3b2-7530-b582" name="Troops" hidden="false" targetId="a2c8-550c-64d1-c48e" primary="true"/>
+        <categoryLink id="2403-1ed4-c2f8-9335" name="Non Support Squad Troop" hidden="false" targetId="6713-ade1-e3c1-e282" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="3681-4bd0-a5ff-8472" name="Members" hidden="false" collective="false" import="true" defaultSelectionEntryId="de06-bb2f-2006-4230">
@@ -4224,6 +4229,7 @@ and Initiative (I) characteristics.</description>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="587f-5185-a06b-b4c4" name="New CategoryLink" hidden="false" targetId="3f9e-5f17-9507-42fc" primary="true"/>
+        <categoryLink id="c706-d519-5593-f950" name="Non Support Squad HQ" hidden="false" targetId="3d73-a22f-cf4d-46e0" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="635b-937b-998d-e142" name="Holo Field" hidden="false" collective="false" import="true" type="upgrade">
@@ -4588,6 +4594,7 @@ and Initiative (I) characteristics.</description>
       <categoryLinks>
         <categoryLink id="f274-1248-9373-5c8e" name="New CategoryLink" hidden="false" targetId="3f9e-5f17-9507-42fc" primary="true"/>
         <categoryLink id="07c4-8243-5dbf-039a" name="Death Jester" hidden="false" targetId="3bf1-54b3-ade7-f1d3" primary="false"/>
+        <categoryLink id="4aff-b271-6580-2ed7" name="Non Support Squad HQ" hidden="false" targetId="3d73-a22f-cf4d-46e0" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6c71-a4ba-3bc5-511c" name="Holo Field" hidden="false" collective="false" import="true" type="upgrade">
@@ -5244,6 +5251,7 @@ and Initiative (I) characteristics.</description>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a1b7-eb0f-c9d4-b545" name="HQ" hidden="false" targetId="3f9e-5f17-9507-42fc" primary="true"/>
+        <categoryLink id="a6f2-1c11-1fee-1612" name="Non Support Squad HQ" hidden="false" targetId="3d73-a22f-cf4d-46e0" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="791d-8398-3fff-67b4" name="Holo Field" hidden="false" collective="false" import="true" type="upgrade">
@@ -5775,6 +5783,7 @@ and Initiative (I) characteristics.</description>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0f5f-a26e-fe09-6ee2" name="New CategoryLink" hidden="false" targetId="3f9e-5f17-9507-42fc" primary="true"/>
+        <categoryLink id="ffdb-0f3b-546e-1ed8" name="Non Support Squad HQ" hidden="false" targetId="3d73-a22f-cf4d-46e0" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="79de-3ff2-cf43-1f63" name="Holo Field" hidden="false" collective="false" import="true" type="upgrade">
@@ -6306,6 +6315,7 @@ select Casting Call (Twilight).</description>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="741e-7ab6-ecc8-72da" name="Troops" hidden="false" targetId="a2c8-550c-64d1-c48e" primary="true"/>
+        <categoryLink id="481c-b510-4736-cb0c" name="Non Support Squad Troop" hidden="false" targetId="6713-ade1-e3c1-e282" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="d647-4e66-f92c-f030" name="Holo Field" hidden="false" collective="false" import="true" type="upgrade">
