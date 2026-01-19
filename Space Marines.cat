@@ -6796,6 +6796,10 @@
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="5b9f-d2ac-6e76-ad13" name="Turret" hidden="false" collective="false" import="true" defaultSelectionEntryId="6fe5-1519-b05d-0b5a">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="785a-ce6a-f3da-b3c8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c25d-98a8-5800-8966" type="min"/>
+          </constraints>
           <selectionEntries>
             <selectionEntry id="6fe5-1519-b05d-0b5a" name="Linked Heavy Bolter" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
@@ -27032,7 +27036,7 @@ longer considered to be Limping.</characteristic>
           <selectionEntries>
             <selectionEntry id="effd-61ec-6849-a78b" name="Deploy as a unit" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="50d8-f21f-2dde-b565" name="Options" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="50d8-f21f-2dde-b565" name="Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="c1a6-7b8d-5abb-e52b">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b2b-d5e3-9547-da2a" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ef4-dbf9-04ad-8045" type="min"/>
@@ -28128,7 +28132,7 @@ longer considered to be Limping.</characteristic>
                                     <characteristic name="A" typeId="eb59-0453-4054-a25a">2</characteristic>
                                     <characteristic name="I" typeId="5f1c-09d0-bb8a-ebe7">4</characteristic>
                                     <characteristic name="Ld" typeId="31b0-0b18-6c77-9338">8</characteristic>
-                                    <characteristic name="Save" typeId="cd7e-52f5-892b-310b">3+</characteristic>
+                                    <characteristic name="Save" typeId="cd7e-52f5-892b-310b">2+</characteristic>
                                   </characteristics>
                                 </profile>
                               </profiles>
@@ -31763,7 +31767,7 @@ longer considered to be Limping.</characteristic>
             </selectionEntry>
             <selectionEntry id="d4ac-f35d-e716-97d0" name="Deploy as seperate characters" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntryGroups>
-                <selectionEntryGroup id="a973-e875-450a-9b75" name="Options" hidden="false" collective="false" import="true">
+                <selectionEntryGroup id="a973-e875-450a-9b75" name="Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="18c7-48e7-2a3e-2bfe">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e04-a380-58cf-917b" type="max"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45e4-8c42-c715-cb78" type="min"/>
@@ -33029,7 +33033,7 @@ longer considered to be Limping.</characteristic>
                                     <characteristic name="A" typeId="eb59-0453-4054-a25a">2</characteristic>
                                     <characteristic name="I" typeId="5f1c-09d0-bb8a-ebe7">4</characteristic>
                                     <characteristic name="Ld" typeId="31b0-0b18-6c77-9338">8</characteristic>
-                                    <characteristic name="Save" typeId="cd7e-52f5-892b-310b">3+</characteristic>
+                                    <characteristic name="Save" typeId="cd7e-52f5-892b-310b">2+</characteristic>
                                   </characteristics>
                                 </profile>
                               </profiles>
