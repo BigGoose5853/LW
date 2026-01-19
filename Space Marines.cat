@@ -7113,16 +7113,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="fb31-ec7c-9a7c-cdfc" name="Impulsor" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="increment" field="cc99-c092-ad89-410c" value="1.0">
-          <repeats>
-            <repeat field="points" scope="force" value="500.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cc99-c092-ad89-410c" type="min"/>
-      </constraints>
       <profiles>
         <profile id="437d-dd37-a2a8-583b" name="Impulsor" hidden="false" typeId="50c6-230e-323d-4cd8" typeName="Vehicle">
           <characteristics>
@@ -37558,7 +37548,11 @@ Crimson Fists:</description>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5e88-bdbd-b616-fc72" name="None" hidden="false" collective="false" import="true" type="upgrade"/>
+            <selectionEntry id="5e88-bdbd-b616-fc72" name="None" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
             <selectionEntry id="a5d0-3f90-1c27-3824" name="Crimson Fists" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
                 <rule id="fa4e-18e7-e5b4-39e2" name="Crimson Fists" hidden="false">
@@ -37567,6 +37561,9 @@ special rule.
 • Oath of Rynn’s world: Crimson Fist units may not Retreat in the Movement Phase.</description>
                 </rule>
               </rules>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="5480-b047-5101-0c7d" name="Minotaurs" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
@@ -37578,6 +37575,9 @@ Movement Phase.
 Imperial Agents.</description>
                 </rule>
               </rules>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="4bc8-6875-36a3-cc7b" name="Carcharodons" hidden="false" collective="false" import="true" type="upgrade">
               <rules>
@@ -37588,6 +37588,9 @@ declaring a Charge against an enemy unit that has suffered an unsaved wound or c
 fifth battle round.</description>
                 </rule>
               </rules>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -45490,6 +45493,9 @@ longer considered to be Limping.</characteristic>
               </modifiers>
             </infoLink>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="6f50-2f2b-aef9-849d" name="God Splitter" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -45515,6 +45521,9 @@ longer considered to be Limping.</characteristic>
             <infoLink id="de93-d57d-f20d-4e82" name="Concussive" hidden="false" targetId="e4c8-4b3c-cd48-064e" type="rule"/>
             <infoLink id="0d82-d942-8f5f-34c4" name="Crushing" hidden="false" targetId="9644-b38b-2c35-323c" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -45655,6 +45664,9 @@ longer considered to be Limping.</characteristic>
           <infoLinks>
             <infoLink id="7f3d-cbba-4e38-5f31" name="Artificer Armour" hidden="false" targetId="0d95-d169-9fc7-0694" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -45743,6 +45755,9 @@ longer considered to be Limping.</characteristic>
               </modifiers>
             </infoLink>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="f2d8-e10e-e888-e36a" name="The Black Spear" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -45774,6 +45789,9 @@ longer considered to be Limping.</characteristic>
             <infoLink id="cfe5-1bd1-a020-2c6e" name="Master-Crafted" hidden="false" targetId="e596-8b5f-1d0f-264b" type="rule"/>
             <infoLink id="790d-fa1d-adef-e795" name="Specialist Weapon" hidden="false" targetId="5188-e921-6247-9444" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -45865,6 +45883,9 @@ longer considered to be Limping.</characteristic>
           <infoLinks>
             <infoLink id="1c81-5830-78b2-ceb4" name="Indomitus Terminator Armour" hidden="false" targetId="4930-ac24-1a5e-9814" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="67ac-6246-c0bb-e15b" name="Hunger" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -45888,6 +45909,9 @@ longer considered to be Limping.</characteristic>
             <infoLink id="5e3b-51e5-d73d-cadb" name="Shred" hidden="false" targetId="e8a9-29c2-b073-4048" type="rule"/>
             <infoLink id="6e5b-ef74-1322-6c6c" name="Specialist Weapon" hidden="false" targetId="5188-e921-6247-9444" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="a702-1c37-5f05-0b60" name="Slake" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -45911,6 +45935,9 @@ longer considered to be Limping.</characteristic>
             <infoLink id="6c14-84ec-f5f4-6f11" name="Shred" hidden="false" targetId="e8a9-29c2-b073-4048" type="rule"/>
             <infoLink id="132c-334c-a136-a84d" name="Specialist Weapon" hidden="false" targetId="5188-e921-6247-9444" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -46084,6 +46111,9 @@ longer considered to be Limping.</characteristic>
               <description>When this model is slain, before it is removed from play, all enemy units within 3” take 4 automatic Strength 8 hits at AP2.</description>
             </rule>
           </rules>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="77fe-c055-3350-f8b1" name="To the Last" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -46098,6 +46128,9 @@ longer considered to be Limping.</characteristic>
               <description>Pedro Kantor and all friendly Crimson Fists in your army gain the Last Stand special rule while Pedro Kantor is alive and on the Battlefield. Pedro Kantor gains the Feel no Pain (5+) special rule while there are more enemy models in a combat in the Combat Phase, than friendly models.</description>
             </rule>
           </rules>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="0571-0576-9448-359f" name="Into the Fray" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -46112,6 +46145,9 @@ longer considered to be Limping.</characteristic>
               <description>Asterion Moloc gains the Hammer of Wrath (1) special rule. In addition, Asterion Moloc and all Minotaurs units gain the Hatred (Space Marines/Chaos Space Marines) special rule while Asterion is alive and on the Battlefield.</description>
             </rule>
           </rules>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="d434-ddd0-c785-2df4" name="The Reaving" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -46126,6 +46162,9 @@ longer considered to be Limping.</characteristic>
               <description>Once per game, if Tyberos the Red Wake is your Warlord, all Carcharodon units in your army gain the Frenzy special rule until the end of the battle.</description>
             </rule>
           </rules>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
