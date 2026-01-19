@@ -171,6 +171,7 @@
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c735-2e6c-58dd-91b0" type="min"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="c984-3786-e76a-b289" name="No Force Org Slot" hidden="false" targetId="1475-bbaf-dd6e-1e87" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="399f-acd2-ca0a-f6c6" name="Allied Detachment" hidden="false">

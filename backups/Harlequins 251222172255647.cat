@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="b23e-262c-6208-ae01" name="Harlequins" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="8b17-cbb9-9637-deb3" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="a80b-c7ce-5671-d54d" name="Troup Master" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f41-4f3d-8af2-7b96" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="e2f7-677b-fe4c-b8bf" name="Consumate Commander" hidden="false">
+          <description>While this unit is either on the battlefield, in reserves or embarked in a transport, you may re-roll rolls when determining if a unit will arrive via Outflank or Deep Strike.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d0bb-879f-2db7-fb3e" name="Soloist" hidden="false" targetId="84a1-dbce-1cad-d1e7" type="rule"/>
+        <infoLink id="4933-f404-6b1e-38f4" name="She Who Thirsts" hidden="false" targetId="e364-8f66-0916-e7c3" type="rule"/>
+        <infoLink id="3620-0070-afbf-9030" name="Character" hidden="false" targetId="fd90-2e67-97df-9c4d" type="rule"/>
+        <infoLink id="91c9-25e1-04f2-289b" name="Holo Field" hidden="false" targetId="d38d-5853-0753-e16a" type="profile"/>
+        <infoLink id="866e-cbbd-912d-fa8b" name="Rising Crescendo" hidden="false" targetId="1508-1c97-eb77-5caf" type="rule"/>
+        <infoLink id="618d-3d34-7c06-10ce" name="Fly" hidden="false" targetId="78eb-1e8d-08b7-d25e" type="rule"/>
+        <infoLink id="2c8d-5084-52bb-d79e" name="Fear" hidden="false" targetId="9011-c82a-70c4-71b8" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a56a-06c7-2848-82d7" name="New CategoryLink" hidden="false" targetId="3f9e-5f17-9507-42fc" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="988e-fd8d-3a27-fb31" name="Plasma Grenades" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70df-31ab-7d3f-2448" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dccd-28ae-b897-d17c" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="d55f-0d61-cf0a-057b" name="Plasma Grenades" hidden="false" targetId="530d-95f7-564a-8f62" type="profile"/>
+            <infoLink id="3b6f-2b90-8444-a20e" name="Blast (X)" hidden="false" targetId="faea-b541-604e-32c4" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5954-a60e-61e8-b585" name="Mount" hidden="false" collective="false" import="true" defaultSelectionEntryId="979a-3ea7-fdfc-b923">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2aa2-672e-ea10-700e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cb8-e329-6d5c-9b91" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1e7e-90bf-981d-18b9" name="Jetbike" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="8197-5426-b47c-cae3" name="Troupe Master on Jetbike" hidden="false" typeId="573c-0c42-33e4-952e" typeName="Unit">
+                  <modifiers>
+                    <modifier type="set" field="704e-d57e-46b1-28f8" value="9">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="66e5-3b98-e2ac-26d4" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="3a51-6a57-a562-a52b" value="4">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b1e-a73d-4b79-1901" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="M" typeId="7f97-6f93-9aba-6934">14&quot;</characteristic>
+                    <characteristic name="WS" typeId="704e-d57e-46b1-28f8">7</characteristic>
+                    <characteristic name="BS" typeId="fd6d-a7b7-c473-d49a">7</characteristic>
+                    <characteristic name="S" typeId="9751-6336-afe6-9f20">3</characteristic>
+                    <characteristic name="T" typeId="b774-84d7-1bf8-f183">3</characteristic>
+                    <characteristic name="W" typeId="3a51-6a57-a562-a52b">3</characteristic>
+                    <characteristic name="A" typeId="eb59-0453-4054-a25a">3</characteristic>
+                    <characteristic name="I" typeId="5f1c-09d0-bb8a-ebe7">6</characteristic>
+                    <characteristic name="Ld" typeId="31b0-0b18-6c77-9338">10</characteristic>
+                    <characteristic name="Save" typeId="cd7e-52f5-892b-310b">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="0c17-376b-93d3-739a" name="Jetbike" hidden="false" targetId="3847-3394-c6ab-61ad" type="profile"/>
+                <infoLink id="a663-8953-bbc4-a4a1" name="Linked Shuriken Catapult" hidden="false" targetId="2a5c-791c-b3db-0ef9" type="profile"/>
+                <infoLink id="6f27-3333-0cf9-45c5" name="Linked" hidden="false" targetId="43d7-8b8c-9e3f-0b2e" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="979a-3ea7-fdfc-b923" name="None" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="88e5-abac-4e7e-240f" name="Troupe Master" hidden="false" typeId="573c-0c42-33e4-952e" typeName="Unit">
+                  <modifiers>
+                    <modifier type="set" field="3a51-6a57-a562-a52b" value="4">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b1e-a73d-4b79-1901" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="set" field="704e-d57e-46b1-28f8" value="9">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="66e5-3b98-e2ac-26d4" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="M" typeId="7f97-6f93-9aba-6934">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="704e-d57e-46b1-28f8">7</characteristic>
+                    <characteristic name="BS" typeId="fd6d-a7b7-c473-d49a">7</characteristic>
+                    <characteristic name="S" typeId="9751-6336-afe6-9f20">3</characteristic>
+                    <characteristic name="T" typeId="b774-84d7-1bf8-f183">3</characteristic>
+                    <characteristic name="W" typeId="3a51-6a57-a562-a52b">3</characteristic>
+                    <characteristic name="A" typeId="eb59-0453-4054-a25a">3</characteristic>
+                    <characteristic name="I" typeId="5f1c-09d0-bb8a-ebe7">6</characteristic>
+                    <characteristic name="Ld" typeId="31b0-0b18-6c77-9338">10</characteristic>
+                    <characteristic name="Save" typeId="cd7e-52f5-892b-310b">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f75b-cb31-0688-d910" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="6ba1-d440-dc52-433c">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7071-ac03-2265-7091" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87cc-5394-eee2-20bd" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6ba1-d440-dc52-433c" name="Power Sword" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="c268-373a-f427-afa3" name="Power Sword" hidden="false" targetId="46ec-11b1-21a6-54ee" type="profile"/>
+                <infoLink id="d6e0-d35b-a71a-66ee" name="Rending" hidden="false" targetId="a83b-2c0c-5a4c-3206" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1215-5772-4e2e-2dab" name="Harlequins Embrace" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="a6a9-33b1-69c8-6f71" name="Harlequins Embrace" hidden="false" targetId="5bd9-18cb-8534-53f4" type="profile"/>
+                <infoLink id="7c1c-76e5-56b1-4685" name="Bane (X)" hidden="false" targetId="ce3b-05b9-c516-2e24" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bc80-1ea7-9d04-2ddd" name="Harlequins Kiss" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="1d9d-5d64-e6e3-b406" name="Harlequins Kiss" hidden="false" targetId="6f5d-6d04-dc50-e1a8" type="profile"/>
+                <infoLink id="1166-c14e-5637-cdab" name="Monofilament" hidden="false" targetId="817d-da1e-7f97-0775" type="rule"/>
+                <infoLink id="3f91-8bd9-27c9-5c96" name="Murderous Strike (X)" hidden="false" targetId="3aad-734f-1595-44c6" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="adb0-441e-c00e-04b6" name="Zephyr Glaive" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="3137-6e72-5e68-88dc" name="Two-Handed" hidden="false" targetId="8843-0f0b-fe6e-cfde" type="rule"/>
+                <infoLink id="f4f0-4930-7716-c91e" name="Rending" hidden="false" targetId="a83b-2c0c-5a4c-3206" type="rule"/>
+                <infoLink id="ed0e-9e83-293b-3bb7" name="Reach" hidden="false" targetId="bd78-cf40-3d3c-954a" type="rule"/>
+                <infoLink id="d483-2f7c-1afa-546b" name="Zephyr Glaive" hidden="false" targetId="b060-0354-6c00-af7b" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1e9d-8851-ab01-3703" name="Pistol" hidden="false" collective="false" import="true" defaultSelectionEntryId="478b-1cdc-9056-b33c">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f811-33c4-3de2-7e94" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="237c-243c-eb65-a888" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="478b-1cdc-9056-b33c" name="Shuriken Pistol" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="d37a-c010-ed24-3869" name="Shuriken Pistol" hidden="false" targetId="d098-0f1d-0d21-beb6" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2c80-1eed-165f-8824" name="Fusion Pistol" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="86e4-ed7b-e355-c034" name="Melta" hidden="false" targetId="d67c-563d-67d5-fd24" type="rule"/>
+                <infoLink id="5099-8cd1-ba82-eec3" name="Fusion Pistol" hidden="false" targetId="fff0-ff3c-5084-0a0b" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cb19-1fea-58cb-9ef9" name="Neuro Distruptor" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="c799-21e8-b753-d07c" name="Neuro Disruptor" hidden="false" targetId="49f9-efb7-726e-2190" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c7f2-ac53-151c-efbe" name="Options" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48e5-06cf-3069-f526" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="92fa-e5b6-c26c-eac0" name="The Prince of Light" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0864-d1bd-db1b-d82c" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="540d-d36d-5ae1-da7a" name="The Prince of Light" hidden="false">
+                  <description>All friendly Harlequin units that can draw visibility to a unit with this upgrade may use this models Leadership (LD) characteristic for Pinning and Panic tests instead of their own.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3f41-ea48-af5c-b4bf" name="The Queen of Shards" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2e1-d769-ff78-c01a" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="dc3c-7ad4-fbdd-0e38" name="The Queen of Shards" hidden="false">
+                  <description>At Initiative Step 1 of the Combat Phase, all enemy units within 3” of a model with this upgrade take D6+2 Strength 1, AP- Automatic hits.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7b1e-a73d-4b79-1901" name="The Great Harlequin" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49e2-e881-0255-6d4b" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="aa81-72c6-7ecf-2c0a" name="The Great Harlequin" hidden="false">
+                  <description>A model with this upgrade gains +1 to their Wounds (W) characteristic and the Battle-Hardened special rule.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="9de1-5821-0cbd-f5be" name="Battle-Hardened" hidden="false" targetId="d560-901c-186f-932f" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="66e5-3b98-e2ac-26d4" name="The Veiled King" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="721a-c34d-f9ae-4826" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="3537-5379-5960-5119" name="The Veiled King" hidden="false">
+                  <description>A model with this upgrade gains +2 to their Weapon Skill (WS) characteristic.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="14fb-008d-4573-1671" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="6cd1-1a92-b8c3-029d" type="selectionEntryGroup"/>
+        <entryLink id="5b05-3bcc-e255-87f8" name="Relics" hidden="false" collective="false" import="true" targetId="f6d3-ec6b-d1d4-6cfe" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="70.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="52fb-195f-0dba-b156" name="Right of War" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="3d16-e15f-020c-5ba5" name="New CategoryLink" hidden="false" targetId="887f-625f-f824-67f5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4a64-4c68-5849-26f1" name="Craft World Selection" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="155d-6ca9-8d5e-2ba5" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3b56-83cb-7acc-1763" name="Warhost" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="0db3-8c76-5d3d-b9b7" name="Warhost" hidden="false">
+                  <description>Restrictions:
+• Your army must include 1 Autarch or
+Farseer.
+• A Farseer or Autarch in your army must be
+your Warlord.
+• Your army must include at least 1 Militia or
+Engine of Vaul unit for every Aspect
+Warrior unit in your army.
+
+Benefits:
+• You may include an additional Troops slot in
+your army for every 1000pts.
+• You may field Falcon Grav Tanks as
+Dedicated Transports.
+• At the start of the first turn, but before any
+player takes any actions, you may select 3
+unit in your Army and Re-deploy that unit as
+if it were the Deployment step of the battle.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8f1f-eb2d-6568-ebf7" name="Windrider Host" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="ee56-6bd6-d9cf-111b" name="Windrider Host" hidden="false">
+                  <description>Restrictions:
+• All units in your army must be the Jetbike,
+Vehicle or Aircraft type.
+• Your army must include at least 1 Farseer
+or Autarch unit.
+• Your army must include at least 2 Wind
+Rider units.
+
+Benefits:
+• You may field Wind Rider units as Troops
+choices.
+• You may field Vyper units as Elites choices.
+• All Jetbike type units gain the Scout special
+rule.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="54a6-3573-bb3a-5610" name="Shrine Host" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="0f39-fc9d-95a9-9814" name="Shrine Host" hidden="false">
+                  <description>Restrictions:
+• Your army must include 1 Autarch.
+• Your army may only include units with the
+Aspect Warrior Keywords.
+• If your army includes a Phoenix Lord or
+Avatar of Khaine, it must be your Warlord.
+If your army includes multiple Pheonix
+Lords, select 1 to be your warlord.
+
+Benefits:
+• You may field Howling Banshee units as
+Troops choices.
+• You may field Swooping Hawks units as
+Troops choices.
+• Wave Serpent units gain the Aspect
+Warrior keyword.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2db6-9340-a624-3901" name="Wraith Host" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="701b-f7c5-0094-9482" name="Wraith Host" hidden="false">
+                  <description>Restrictions:
+• Your army must include at least 1 Warlock
+with the Spiritseer upgrade.
+• Your army must include at least 2 Wraith
+Guard or Wraith Blade units.
+• Your army must include at least 1 Psyker
+unit for every 3 Wraith keyword units in your
+army.
+
+Benefits:
+• You may field Wraith Guard as Troops
+choices.
+• You may field Wraith Blades as Troops
+choices.
+• You may field 1 Wraith Lord as a HQ
+choice. This Wraith Lord may be your
+Warlord and gains +1 to its Weapon Skill
+(WS) and Ballistic Skill (BS) characteristics
+if it is selected to be your Warlord. It gains
+the Character special rule and may generate
+a Warlord trait as per normal.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="6cd1-1a92-b8c3-029d" name="Warlord Traits" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cdd-8c59-dbb6-dce7" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69a9-090c-1959-d91a" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f359-2888-a420-3ab0" type="max"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29f0-5703-7c5d-d58a" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e26-bd51-398d-a424" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f45-1483-4199-57ef" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="39bb-813d-ce22-55f1" name="True Sight" hidden="true" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="a445-dbc4-0a27-455e" name="True Sight" hidden="false">
+              <description>If this model ius your warlord, when it would cast the Guide Psychic Power, the effected target unit gains the Ignores Cover special rule on all weapons they are equipped with.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="f6d3-ec6b-d1d4-6cfe" name="Relics" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ed7-859b-43a4-d4e3" type="max"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd36-ecbb-8c1f-2e2d" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32c5-7cb9-b7bf-a131" type="max"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80a6-1de4-6e56-8d56" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a16-6d66-de6f-c1ee" type="max"/>
+        <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1595-d9e5-a5eb-6987" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="a423-00b2-b979-7b21" name="Starmist Raiment" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="351d-0225-7dcc-e970" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a38-a657-c909-b30e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f891-d33f-a9e7-7f2d" name="Starmist Raiment" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+              <characteristics>
+                <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">One unit in your army with the Character special rule that does not have the Unique keyword and no other Relic Wargear may purchase this wargear. All Attacks against a model bearing this Relic are resolved as if the Attacking model is affected by the Blind special rule.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="30.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d102-b17e-c19c-398c" name="Cegorach&apos;s Rose" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2109-bf85-f7e2-5ee9" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bf9-56a4-6aaa-a834" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0241-e356-fc22-8917" name="Starmist Raiment" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Type" typeId="322d-289f-4eae-577d">Melee</characteristic>
+                <characteristic name="Range" typeId="1962-ec0b-b994-486a">Melee</characteristic>
+                <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">+1</characteristic>
+                <characteristic name="AP" typeId="a556-f4cc-a395-ac04">1</characteristic>
+                <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Master-Crafted, Monofiliment, Murderous Strike (2+), Bane</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="a8b5-0411-6002-148c" name="Master-Crafted" hidden="false" targetId="e596-8b5f-1d0f-264b" type="rule"/>
+            <infoLink id="90c7-78e5-1a37-b47d" name="Monofilament" hidden="false" targetId="817d-da1e-7f97-0775" type="rule"/>
+            <infoLink id="ae7c-4eaa-84f6-d9da" name="Murderous Strike (X)" hidden="false" targetId="3aad-734f-1595-44c6" type="rule"/>
+            <infoLink id="b145-19ea-9d8d-1f52" name="Bane (X)" hidden="false" targetId="ce3b-05b9-c516-2e24" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="50.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="7ecc-b52e-1071-5732" name="Casting Call" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="6db7-45ee-43bf-eb9a" name="Casting Call (Light)" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="6b05-0a68-df6d-2bd8" name="Casting Call (Light)" hidden="false">
+              <description>Light: The unit gains the Sudden Strike special rule and may only join units with the Casting Call (Light) special rule. If the unit is a Character, it may only take Warlord traits from the General Warlord Traits and Light Warlord Traits.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="0840-8d5a-7142-7b74" name="Sudden Strike" hidden="false" targetId="9617-3589-ad80-75ff" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry id="ec1a-b220-b439-fed2" name="Casting Call (Dark)" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="3dbb-9b05-f73b-67ec" name="Casting Call (Dark)" hidden="false">
+              <description>Dark: The unit gains the Rage special rule and may only join units with the Casting Call (Dark) special rule. If the unit is a Character, it may only take Warlord traits from the General Warlord Traits and Dark Warlord Traits.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="2532-8b63-de03-0e8f" name="Rage" hidden="false" targetId="da67-f40e-b867-fcb4" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry id="e49e-315c-f5fa-6d3d" name="Casting Call (Twilight)" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="c133-05d7-d5db-6f91" name="Casting Call (Twilight)" hidden="false">
+              <description>Twilight: The unit gains the Fleet special rule and may only join units with the Casting Call (Twilight) special rule. If the unit is a Character, it may only take Warlord traits from the General Warlord Traits and Twlight Warlord Traits.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="2ca7-7f6b-73df-fdca" name="Fleet" hidden="false" targetId="ed5a-aa78-a661-b582" type="rule"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="84a1-dbce-1cad-d1e7" name="Soloist" hidden="false">
+      <description>A model with this special rule cannot join any other units, even if they have the appropriate type.</description>
+    </rule>
+    <rule id="e364-8f66-0916-e7c3" name="She Who Thirsts" hidden="false">
+      <description>Eldar units with this special rule have the Hatred (Slaanesh) special rule.</description>
+    </rule>
+    <rule id="1508-1c97-eb77-5caf" name="Rising Crescendo" hidden="false">
+      <description>Units with this special rule can retreat in the Movement Phase and Charge in the Charge Phase.</description>
+    </rule>
+    <rule id="817d-da1e-7f97-0775" name="Monofilament" hidden="false">
+      <description>When rolling to wound or penetrate against a target with this weapon, instead of using the targets Toughness (T) characteristic roll to wound by comparing the targets Initiative (I) characteristic to the weapons Strength (S) characteristic on the wound chart. Monofilament weapons are resolved against the AV of Vehicles, Fortifications, Titans, Knights and Aircraft type units as normal. For Instant Death, the weapon is Instant Death if its Strength (S) characteristic is double the targets Initiative (I) characteristic.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="d098-0f1d-0d21-beb6" name="Shuriken Pistol" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Pistol 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">4</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">6</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f590-b391-eef6-2287" name="Shuriken Catapult" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Assault 2</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">4</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">6</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2ffc-f104-8eb1-15f8" name="Shuriken Cannon" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Assault 3</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">6</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">5</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Pinning</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2a5c-791c-b3db-0ef9" name="Linked Shuriken Catapult" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Assault 2</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">18&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">4</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">6</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Linked</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="530d-95f7-564a-8f62" name="Plasma Grenades" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Grenade 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">4</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">5</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Blast (Small)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6c31-364f-aa83-3297" name="Close Combat Weapon" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Melee</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">Melee</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">User</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">-</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="3847-3394-c6ab-61ad" name="Jetbike" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">A model that is equipped with Jetbike becomes the
+Jetbike type. The Jetbike increases the models
+Toughness (T) by 1. The Jetbike is equipped with
+Linked Shuriken Catapults.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="46ec-11b1-21a6-54ee" name="Power Sword" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Melee</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">Melee</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">User</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">3</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Rending (6+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b171-d3df-021a-37dc" name="Eldar Crew Weapon" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Melee</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">Melee</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">3</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">-</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2f4c-6a72-1162-c3ea" name="Ghost Glaive" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Melee</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">Melee</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">+2</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">2</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Sweeping (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fff0-ff3c-5084-0a0b" name="Fusion Pistol" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Pistol 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">8</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">1</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Melta</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b395-25e8-7be7-a354" name="Melta Bomb" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">In combat, a model with this wargear may forgo its attacks and instead make a single Strength 8, AP1 attack with the Melta Special rule at Initiative step 1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5dbf-5af9-d28b-ab0d" name="Prismatic Cannon (Dispersed)" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Heavy 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">30&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">6</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">3</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Blast (Large), Variable</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b632-f34d-76c9-1954" name="Prismatic Cannon (Focused)" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Heavy 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">30&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">8</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">2</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Blast (Small), Variable</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8604-7363-416b-e70f" name="Prism Rifle (Focused)" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Assault 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">6</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">2</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Melta</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ccac-3134-74be-62f8" name="Aeldari Missle Launcher (Starshot)" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Heavy 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">8</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">3</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Variable</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2f7f-59a6-b644-3d7f" name="Haywire Grenade" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Grenade 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">0</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">-</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Haywire (4+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d38d-5853-0753-e16a" name="Holo Field" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">This wargear confers a 4+ Invulnerable save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d11e-5c56-ef99-d24d" name="Light Weight Plating" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">Light Weight plating used in many Eldar vehicles. It
+confers a 3+ Armour save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="23ad-c5fc-b67c-729b" name="Wraith Bone Plate" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">A living heavy organic armour plate. Confers a 2+ armour save.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d67f-11b4-fdea-e7fb" name="Vectored Engines" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">A model with this wargear gains the Deep Strike special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e6b9-47dc-0b54-1392" name="Star Engines" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">Increase a model with this wargear’s Movement (M) characteristic by 2”.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="13ec-af15-e475-a9bc" name="Aeldari Missle Launcher (Sunburst)" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Heavy 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">48&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">4</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">5</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Blast (Small), Variable</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="bc69-79e3-b4ba-44ff" name="Skyweaver Jetbike" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">A model that is equipped with Jetbike becomes the Jetbike type. The Jetbike increases the models Toughness (T) by 1. The Jetbike is equipped with a Shuriken Cannon.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b764-19e6-1fa3-6cf5" name="Mirage Mask" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">A model equipped with this wargear has the Fear (1) special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a1af-739d-e18a-7d3d" name="Flip Belt" hidden="false" typeId="f66f-42a5-fdb8-e99c" typeName="Wargear">
+      <characteristics>
+        <characteristic name="New CharacteristicType" typeId="fac5-5dba-5def-5580">A model equipped with this wargear gains the Fly and Move Through Cover special rules.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9905-8090-1ebc-9de4" name="Shrieker Cannon (Shuriken)" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Assault 3</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">6</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">5</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Variable, Rending (5+), Pinning</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fc67-a987-5509-70a5" name="Shrieker Cannon (Shreiker)" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Assault 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">6</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">5</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Variable, Poisioned (2+), Blast (Small), Precision Hits, Pinning</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="d299-7f0e-8822-c656" name="Phantasm Grenade" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Grenade 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">-</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">-</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Pinning</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4de1-d7e8-ab9d-f1f1" name="Star Bolas" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Grenade 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">6</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">4</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Blast (Small), Concussive</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6f5d-6d04-dc50-e1a8" name="Harlequins Kiss" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Melee</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">Melee</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">+1</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">-</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Monofilament, Murderous Strike (4+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5bd9-18cb-8534-53f4" name="Harlequins Embrace" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Melee</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">Melee</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">User</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">1</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Monofilament</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="17a5-db9c-9b05-4691" name="Mist Stave" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Melee</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">Melee</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">+1</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">3</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Force, Reach</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="783d-e9c3-5f0d-1201" name="Harlequins Caress" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Melee</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">Melee</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">+2</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">1</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Bane</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b060-0354-6c00-af7b" name="Zephyr Glaive" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Melee</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">Melee</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">+1</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">3</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Two-Handed, Rending (6+), Reach</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="92c1-317f-49c3-ed5a" name="Haywire Cannon" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Assault 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">24&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">6</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">4</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Haywire (4+)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="49f9-efb7-726e-2190" name="Neuro Disruptor" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Pistol 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">12&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">6</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">3</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Bane</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ef70-b580-129a-e847" name="Flamer" hidden="false" typeId="0bef-1479-10b9-425a" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Type" typeId="322d-289f-4eae-577d">Assault 1</characteristic>
+        <characteristic name="Range" typeId="1962-ec0b-b994-486a">8&quot;</characteristic>
+        <characteristic name="Strength" typeId="b250-cf2f-97a4-c149">4</characteristic>
+        <characteristic name="AP" typeId="a556-f4cc-a395-ac04">5</characteristic>
+        <characteristic name="Rules" typeId="4011-950e-7c0d-1aed">Spray</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
