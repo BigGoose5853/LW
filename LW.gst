@@ -993,7 +993,7 @@ the value of 1 (Initiative 1 becomes Initiative 2).</description>
       <description>A unit with this special rule ignores the Night Fighting
 rules in Battle plans where it is active.</description>
     </rule>
-    <rule id="7b95-8bd8-e5a5-efeb" name="Super Heavt (X)" hidden="false">
+    <rule id="7b95-8bd8-e5a5-efeb" name="Super Heavy (X)" hidden="false">
       <description>A Vehicle/Knight/Titan/Aircraft with the Super Heavy
 (X) special rule gains the following benefits:
 ● The Vehicle/Aircraft has a number of
